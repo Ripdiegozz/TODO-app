@@ -26,7 +26,7 @@ form {
   width: 40vw;
   border-radius: 25px;
   background-color: rgb(238, 237, 237);
-  padding: 25px;
+  padding: 15px 25px;
 }
 
 .title {
@@ -144,6 +144,22 @@ form {
 .date{
   width: 100%;
   padding: 15px;
+}
+
+footer{
+  background: linear-gradient(to right, #141e30, #243b55);
+  padding: 15px;
+}
+
+footer h2{
+  color: whitesmoke;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+footer h2 a{
+  color: #ef5350;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 500px) {
