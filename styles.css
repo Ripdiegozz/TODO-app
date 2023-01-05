@@ -46,7 +46,7 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 35%;
+  width: 42%;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -56,6 +56,10 @@ form {
 
 .inputForm::placeholder {
   padding: 0px;
+}
+
+.data-form-date{
+  width: 30%;
 }
 
 .btnCreate {
@@ -119,6 +123,7 @@ form {
   top: -100px;
   left: 0;
 }
+
 .deleteSpace {
   position: relative;
   width: 30%;
@@ -146,6 +151,10 @@ form {
 
   .inputForm{
     width: 80%;
+  }
+
+  .data-form-date{
+    width: 40%;
   }
 }
 
