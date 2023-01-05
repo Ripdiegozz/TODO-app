@@ -8,7 +8,7 @@ const input = document.querySelector('[data-form-input]');
 //Arrow functions o funciones anonimas
 btn.addEventListener('click', addTask);
 
-let max = 35;
+let max = 32;
 
 input.addEventListener('keyup', function (event) {
     event.target.value = event.target.value.substring(0, max)
